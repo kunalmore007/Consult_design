@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #F3525A;
+    --primary: #1b7272;
     --secondary: #F6F6F6;
     --light: #FFFFFF;
     --dark: #152440;
@@ -38,6 +38,7 @@ h6,
 }
 
 .btn {
+    
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
     transition: .5s;
@@ -94,7 +95,7 @@ h6,
     padding: 35px 15px;
     font-size: 18px;
     text-transform: uppercase;
-    color: var(--dark);
+    color: #FFFFFF;
     outline: none;
     transition: .5s;
 }
@@ -105,7 +106,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #00ffff;
 }
 
 @media (max-width: 991.98px) {
